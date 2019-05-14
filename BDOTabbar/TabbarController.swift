@@ -324,6 +324,7 @@ extension TabbarController: UITableViewDataSource, UITableViewDelegate {
         default: break
         }
 
+         hideSubMenu(selected: previousSelectedIndex)
     }
     
 }
